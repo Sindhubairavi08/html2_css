@@ -1,0 +1,25 @@
+.grid-main{
+    display: grid;
+    grid-template-columns:repeat(6, 1fr);
+    background-color: coral;
+}
+.grid-items{
+    background-color: chocolate;
+    border: 5px solid black;
+}
+@media screen and (max-width:475px){
+    .grid-main{
+        grid-template-columns: repeat(2,1fr);
+        padding: 10px;
+        background-color: crimson;
+    }
+    .grid-items{
+        background-color: green;    
+        border: 1px solid blueviolet;  
+        padding: 10px;
+        font-size: 20px;
+        color: wheat;
+        text-align:center;
+    }
+    
+}
